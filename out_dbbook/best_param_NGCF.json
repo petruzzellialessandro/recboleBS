@@ -1,0 +1,9 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "hidden_size_list": "[128,128,128]",
+    "learning_rate": 0.0008000696286511361,
+    "model": "NGCF",
+    "node_dropout": 0.0978784277585724,
+    "reg_weight": 0.0007711356476711664
+}

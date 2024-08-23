@@ -1,0 +1,9 @@
+{
+    "accum": "stack",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "dropout_prob": 0.022939398574171665,
+    "gcn_output_dim": 256,
+    "learning_rate": 0.0009529317102296701,
+    "model": "GCMC"
+}

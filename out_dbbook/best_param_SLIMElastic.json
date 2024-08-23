@@ -1,0 +1,10 @@
+{
+    "alpha": 0.2182758678048665,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "hide_item": true,
+    "l1_ratio": 0.03340920493632476,
+    "margin": 0.8069142181440323,
+    "model": "SLIMElastic",
+    "positive_only": true
+}

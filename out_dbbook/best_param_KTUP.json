@@ -1,0 +1,10 @@
+{
+    "L1_flag": false,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.0008423536310947474,
+    "model": "KTUP",
+    "train_kg_step": 6,
+    "train_rec_step": 12,
+    "use_st_gumbel": true
+}

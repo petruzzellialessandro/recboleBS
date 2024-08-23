@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "gcn_output_dim": 5,
+    "learning_rate": 0.0009983906429896644,
+    "model": "LINE",
+    "second_order_loss_weight": 0.597386517340283
+}

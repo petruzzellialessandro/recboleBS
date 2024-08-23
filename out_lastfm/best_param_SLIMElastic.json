@@ -1,0 +1,10 @@
+{
+    "alpha": 0.015383421771276103,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "hide_item": true,
+    "l1_ratio": 1.4481160080792588e-07,
+    "margin": 0.8865626484603316,
+    "model": "SLIMElastic",
+    "positive_only": true
+}

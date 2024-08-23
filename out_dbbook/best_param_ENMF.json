@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "dropout_prob": 0.5127135062187573,
+    "learning_rate": 0.0009956615389453015,
+    "model": "ENMF",
+    "negative_weight": 0.8591353095918448
+}

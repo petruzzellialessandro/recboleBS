@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "learning_rate": 0.0009942636312483225,
+    "model": "LightGCN",
+    "n_layers": 1,
+    "reg_weight": 0.0034951988051247574
+}

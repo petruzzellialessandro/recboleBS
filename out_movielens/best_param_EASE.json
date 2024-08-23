@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "model": "EASE",
+    "reg_weight": 1682.0036356374685
+}

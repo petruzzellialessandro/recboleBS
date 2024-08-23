@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "gamma": 0.8858051235236625,
+    "margin": 0.5222299808127453,
+    "model": "SimpleX",
+    "negative_weight": 10
+}

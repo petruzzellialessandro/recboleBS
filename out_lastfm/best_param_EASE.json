@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "model": "EASE",
+    "reg_weight": 107.26325935829878
+}

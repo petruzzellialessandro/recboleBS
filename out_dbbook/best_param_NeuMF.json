@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "dropout_prob": 0.8991317797926329,
+    "learning_rate": 0.0008253952486383337,
+    "mlp_hidden_size": "[64,32,16]",
+    "model": "NeuMF"
+}

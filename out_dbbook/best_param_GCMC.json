@@ -1,0 +1,9 @@
+{
+    "accum": "stack",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "dropout_prob": 0.6462824207461163,
+    "gcn_output_dim": 1024,
+    "learning_rate": 0.0002701688797583559,
+    "model": "GCMC"
+}

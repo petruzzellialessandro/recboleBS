@@ -1,0 +1,6 @@
+.venv
+log
+log_tensorboard
+saved
+*.ipynb
+__pycache__

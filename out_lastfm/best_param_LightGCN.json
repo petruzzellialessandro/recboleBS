@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.0009738531684408923,
+    "model": "LightGCN",
+    "n_layers": 1,
+    "reg_weight": 0.0033906053268747
+}

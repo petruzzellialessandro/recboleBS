@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "kg_embedding_size": 64,
+    "learning_rate": 0.0008260556282490019,
+    "model": "CKE",
+    "reg_weights": "[0.01,0.01]"
+}

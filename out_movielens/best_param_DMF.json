@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "item_hidden_size_list": "[64, 64]",
+    "learning_rate": 0.0008650900722967272,
+    "model": "DMF",
+    "user_hidden_size_list": "[64, 64]"
+}

@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "model": "EASE",
+    "reg_weight": 80.74600193784478
+}

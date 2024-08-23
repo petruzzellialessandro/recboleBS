@@ -1,0 +1,9 @@
+{
+    "alpha": 0.06410524538729578,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "embedding_size": 32,
+    "learning_rate": 0.000588846297405373,
+    "model": "FISM",
+    "regs": "[1e-7, 1e-7]"
+}

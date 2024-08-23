@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "k": 300,
+    "model": "ItemKNN",
+    "shrink": 0.5
+}
