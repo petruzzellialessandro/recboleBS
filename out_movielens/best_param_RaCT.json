@@ -1,0 +1,7 @@
+{
+    "anneal_cap": 0.45817493519985947,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "dropout_prob": 0.8045616567534711,
+    "model": "RaCT"
+}

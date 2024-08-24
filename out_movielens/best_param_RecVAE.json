@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "learning_rate": 0.0009765685844493313,
+    "model": "RecVAE"
+}

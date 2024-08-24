@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.0005249644960363924,
+    "model": "NNCF",
+    "neigh_embedding_size": 64,
+    "neigh_info_method": "random",
+    "neigh_num": 100,
+    "num_conv_kernel": 32
+}

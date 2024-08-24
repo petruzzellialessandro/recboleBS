@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.0007747027355740158,
+    "model": "NNCF",
+    "neigh_embedding_size": 64,
+    "neigh_info_method": "knn",
+    "neigh_num": 20,
+    "num_conv_kernel": 128
+}

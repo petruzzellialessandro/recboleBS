@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "kg_embedding_size": 32,
+    "learning_rate": 0.0009907093751447345,
+    "model": "CKE",
+    "reg_weights": "[0.1,0.1]"
+}

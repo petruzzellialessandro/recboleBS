@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "kg_embedding_size": 64,
+    "learning_rate": 0.0009725924262769843,
+    "model": "RippleNet",
+    "training_neg_sample_num ": 1
+}

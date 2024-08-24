@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "dropout_prob": 0.2520559813523027,
+    "learning_rate": 0.00044140107420214455,
+    "mlp_hidden_size": "[64,32,16]",
+    "model": "NeuMF"
+}

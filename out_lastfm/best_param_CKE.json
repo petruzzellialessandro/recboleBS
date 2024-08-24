@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "kg_embedding_size": 128,
+    "learning_rate": 0.0009225128752459187,
+    "model": "CKE",
+    "reg_weights": "[0.1,0.1]"
+}

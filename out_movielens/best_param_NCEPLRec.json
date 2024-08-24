@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.6272761036987136,
+    "dataset": "movielens",
+    "model": "NCEPLRec",
+    "rank": 100,
+    "reg_weight": 5326.158885800233
+}

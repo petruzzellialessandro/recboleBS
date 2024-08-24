@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "learning_rate": 5.128763645411219e-05,
+    "model": "SpectralCF",
+    "n_layers": 3,
+    "reg_weight": 0.49718405832041807
+}

@@ -16,6 +16,7 @@ load_col:
     kg: [head_id, relation_id, tail_id]
     link: [entity_id, item_id]
     item: [item_id, title]
+gpu_id: 1
 
 # data filtering for interactions
 val_interval:
@@ -31,8 +32,8 @@ relation_kg_num_interval: "[1,inf)"
 
 # training and evaluation
 epochs: 50
-train_batch_size: 1024
-eval_batch_size: 1024
+train_batch_size: 256
+eval_batch_size: 256
 valid_metric: NDCG@10
 train_neg_sample_args: 
     distribution: uniform

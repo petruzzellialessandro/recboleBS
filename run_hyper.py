@@ -36,7 +36,7 @@ if dataset == 'lastfm':
     fixed_config_file_list = [os.path.join('configs','config_music.yaml')]
 
 for model_name, params_dict in hyper.config_dict.items():
-    if model_name not in ["NCL", "NeuMF", "NNCF", "CFKG", "CKE", "KGAT", "KGCN", "KGIN", "KGNNLS", "KTUP", "MCCLK", "MKR", "RippleNet"]:
+    if model_name not in ["NCL", "KGAT", "KGIN", "KGNNLS", "MCCLK"]:
         continue
     try:
         params_dict['choice'] = params_dict.get('choice', {})
