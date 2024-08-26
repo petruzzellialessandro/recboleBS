@@ -1,0 +1,10 @@
+{
+    "alpha": 0.1268445892503937,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.3749295554697558,
+    "dataset": "movielens",
+    "learning_rate": 6.29392029686323e-05,
+    "model": "NAIS",
+    "reg_weights": "[1e-7, 1e-7, 1e-5]",
+    "weight_size": 16
+}

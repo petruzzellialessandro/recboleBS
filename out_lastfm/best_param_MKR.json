@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "high_layers_num": 1,
+    "kg_embedding_size": 128,
+    "l2_weight": 4.460498142511664e-05,
+    "learning_rate": 0.000672450482489163,
+    "low_layers_num": 1,
+    "model": "MKR"
+}

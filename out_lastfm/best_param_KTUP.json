@@ -1,0 +1,10 @@
+{
+    "L1_flag": false,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.000995583423033991,
+    "model": "KTUP",
+    "train_kg_step": 2,
+    "train_rec_step": 8,
+    "use_st_gumbel": true
+}
