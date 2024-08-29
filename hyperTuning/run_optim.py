@@ -1,4 +1,4 @@
-import hyper
+import hyper.utils as utils
 import os
 from recbole.quick_start import objective_function
 
@@ -29,7 +29,7 @@ early_stop = int(args.early_stop)
 fixed_config_file_list = [os.path.join('configs','config.yaml')]
 os.makedirs(f'out_{dataset}', exist_ok=True)
 
-for model_name, params_dict in hyper.config_dict.items():
+for model_name, params_dict in utils.config_dict.items():
     try:
         params_dict['choice'] = params_dict.get('choice', {})
         params_dict['choice']['model'] = [model_name]

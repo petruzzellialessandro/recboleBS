@@ -30,7 +30,7 @@ if args.dataset:
     dataset = args.dataset
 
 models = models.difference(set("ERROR_FILE.txt"))
-os.makedirs(f'saved_{dataset}_temp', exist_ok=True)
+os.makedirs(f'saved_{dataset}', exist_ok=True)
 for model_file in models:
     match = re.search(r"best_param_(.*)\.json", model_file)
     if match:
@@ -40,11 +40,9 @@ for model_file in models:
     try:
         with open(os.path.join(f'out_{dataset}', model_file)) as json_file:
             data = json.load(json_file)
-            for k in set(data.keys()).difference(['dataset', 'model', 'benchmark_filename']):
-                del data[k]
-            data['checkpoint_dir']=f'saved_{dataset}_temp'
+            data['checkpoint_dir']=f'saved_{dataset}'
             run(model = data['model'], dataset = data['dataset'], config_dict=data, config_file_list=[os.path.join('configs', 'config.yaml')])
     except Exception:
-        with open(os.path.join(f'saved_{dataset}_temp', f'ERROR_FILE.txt'), "a") as f:
+        with open(os.path.join(f'saved_{dataset}', f'ERROR_FILE.txt'), "a") as f:
             f.write(f"ERROR MODEL {model_name}\n")
     

@@ -70,3 +70,12 @@ tzdata==2024.1
 urllib3==2.2.2
 virtualenv==20.26.3
 Werkzeug==3.0.3
+mxnet-mkl==1.6.0 
+numpy==1.23.1
+kmeans_pytorch==0.3
+scipy==1.7.2
+lightgbm==4.5.0
+xgboost==2.1.1
+faiss-cpu==1.8.0
+dgl==2.1.0
+pydantic==2.8.2

@@ -4,20 +4,20 @@
 
 ### Singularity Container
 
-This repository includes a `.def` file for building a Singularity container to ensure the correct Python version and necessary libraries are included.
+This repository includes a `.def` file to build a Singularity container, ensuring the correct Python version and necessary libraries are installed.
 
 #### Building the Container
 
-To build the container on Unix systems, use the following command:
+To build the container on Unix systems, run the following command:
 ```sh
 sudo singularity build recbole_container.sif recbole_container.def
 ```
 
 After building the container, move the `.def` file to the current directory.
 
-### Setting Up the Python Environment
+### Python Environment Setup
 
-These scripts are designed to work with **Python 3.10.12**. Using this version is strongly recommended for optimal compatibility.
+The scripts are designed for **Python 3.10.12**. Using this version is strongly recommended for compatibility.
 
 #### Steps to Set Up the Environment
 
@@ -43,33 +43,32 @@ These scripts are designed to work with **Python 3.10.12**. Using this version i
 
 ## Dataset Setup
 
-Place your dataset in the `dataset` folder within a subfolder named after the dataset. Each dataset folder must contain the following files:
+Place your dataset in the `dataset` folder within a subfolder named after the dataset. Each dataset folder must include the following files:
 - `{dataset_name}.part1.inter`: Contains the training set instances.
 - `{dataset_name}.part3.inter`: Contains the test set instances.
-- `{dataset_name}.item`: Contains the list of items and the corresponding features.
+- `{dataset_name}.item`: Contains the list of items and their corresponding features.
 - `{dataset_name}.kg`: Contains the triples of the knowledge graph related to the items.
-- `{dataset_name}.link`: Contains the mapping between the IDs used in the `kg` file and the `item` file.
+- `{dataset_name}.link`: Maps the IDs used in the `kg` file to those in the `item` file.
 
-Each `.inter` file must have three columns (user, item, score) separated by a tab (`\t`). The column names are not important, but the order of the columns is mandatory.
+Each `.inter` file must have three columns (user, item, score) separated by a tab (`\t`). While the column names can vary, the order must be maintained.
 
-The `.kg` and `.link` files are optional. Refer to the Recbole documentation [here](https://recbole.io/docs/user_guide/data/atomic_files.html) for more information on file formats and requirements.
+The `.kg` and `.link` files are optional. Refer to the Recbole documentation [here](https://recbole.io/docs/user_guide/data/atomic_files.html) for more details on file formats and requirements.
 
 ## Hyperparameter Optimization
 
-The `hyperTuning` folder contains all the necessary code for hyperparameter tuning of the models implemented in Recbole. In this folder, you will find three `.py` files:
+The `hyperTuning` folder contains the necessary code for hyperparameter tuning of models implemented in Recbole. Inside this folder, you'll find three `.py` files:
 
-- `utils.py`: Contains the models that need to be optimized. For each model, it specifies the hyperparameter space to search for the best configuration. You can add new models and reference them using the class name in Recbole.
-
-- `run_optim.py`: The script that runs the optimization. The script requires the following arguments:
-  - `-d` or `--dataset`: The name of the dataset (folder name).
-  - `-t` or `--trials`: The number of trials per model (default=50).
-  - `-e` or `--early_stop`: The number of epochs for early stopping (default=10).
+- `utils.py`: Defines the models to be optimized, including the hyperparameter space for each model. New models can be added and referenced by their class names in Recbole.
+- `run_optim.py`: Runs the optimization process. It accepts the following arguments:
+  - `-d` or `--dataset`: The dataset name (folder name).
+  - `-t` or `--trials`: The number of trials per model (default = 50).
+  - `-e` or `--early_stop`: The number of epochs for early stopping (default = 10).
 
   Other settings, such as epochs and batch size, can be adjusted via the `config.yaml` file in the `config` folder.
 
   This script generates two types of files in a folder named `out_{dataset_name}`:
-  1. `best_param_{model_name}.json`: A dictionary containing the best configuration of that model.
-  2. `.ERROR_FILE.txt`: A list of models that encountered exceptions during the optimization phase.
+  1. `best_param_{model_name}.json`: Contains the best configuration for each model.
+  2. `ERROR_FILE.txt`: Lists models that encountered exceptions during the optimization phase.
 
 ### Example Usage
 
@@ -85,38 +84,40 @@ or
 python run_optim.py -d movielens -t 30 -e 100
 ```
 
-## Train Model
+## Model Training
 
-The `train_save_model.py` script trains and saves models. It requires the file `{dataset_name}_optim_model.pkl`, which contains the model configurations. For each model in this file, the script will train and save it in a folder named `{dataset_name}_models`. Each model will be stored in its respective subfolder as a `.pkl` file.
+The `train_save_model.py` script trains and saves models. It requires the `out_{dataset_name}` folder, which contains the model configurations. For each model file in this folder, the script will train and save it in a folder named `saved_{dataset_name}`.
 
-This script requires three parameters:
+This script requires the following parameters:
 - `-d` or `--dataset`: The dataset to use.
-- `-e` or `--epochs`: The number of epochs per model (default=50).
-- `-r` or `--rating_threshold`: The rating threshold for a "like" (default=1.0).
+
+Other settings, such as epochs and batch size, can be adjusted via the `config.yaml` file in the `config` folder.
+
+> **Note**: The script will automatically ignore the `ERROR_FILE.txt`. However, it may generate its own `ERROR_FILE.txt` in the `saved_{dataset_name}` folder, following the same structure.
 
 ### Example Usage
 
-To train and save models for a dataset named `movielens`, with 100 epochs per model and a rating threshold of 1.0, use:
+To train and save models for a dataset named `movielens`, use:
 
 ```sh
-singularity run --nv recbole_container.sif python train_save_model.py -d movielens -e 100 -r 1.0
+singularity run --nv recbole_container.sif python train_save_model.py -d movielens
 ```
 
 or
 
 ```sh
-python train_save_model.py -d movielens -e 100 -r 1.0
+python train_save_model.py -d movielens
 ```
 
 ## Model Inference
 
-The `inference_bs.py` script performs inference using trained Recbole models. It generates recommendation scores for users in the test set and saves the results to a file. This script requires three parameters:
+The `inference_bs.py` script performs inference using trained Recbole models, generating recommendation scores for users in the test set. It saves the results to a file and requires the following parameters:
 
-- `-d` or `--dataset`: The name of the dataset.
+- `-d` or `--dataset`: The dataset name.
 - `-t` or `--testOnly`: If `True`, only items in the test set are considered for recommendations (default: `False`).
 - `-k` or `--k`: The number of top recommendations to generate per user (default: `-1` for all items).
 
-### Example Command
+### Example Usage
 
 To run inference for a dataset named `movielens`, considering only test set items and generating the top 10 recommendations per user:
 
@@ -128,8 +129,8 @@ or
 python inference_bs.py -d movielens -t True -k 10
 ```
 
-This script generates two files:
+This script generates two files in a folder named `predicted_{dataset_name}`:
 1. `predicted_score_{model_name}.tsv`: Contains the recommended items for each user in the test set.
 2. `predicted_score_{model_name}_all_items.tsv`: Contains all recommended items for each user if `testOnly` is set to `False`.
 
-This script ensures that recommendations are generated efficiently and saved appropriately for further analysis or evaluation.
+This script ensures that recommendations are efficiently generated and saved for further analysis or evaluation.
