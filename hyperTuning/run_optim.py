@@ -1,4 +1,4 @@
-import hyper.utils as utils
+import utils as utils
 import os
 from recbole.quick_start import objective_function
 
