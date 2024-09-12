@@ -1,9 +1,12 @@
 .venv
+datset/boardgamegeek
 log
 log_tensorboard
 saved
 *.ipynb
+*.sif
 __pycache__
 saved_*
 predicted_*
 convert.py
+recbole_container.sif
