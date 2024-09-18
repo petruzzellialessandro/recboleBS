@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "dropout_prob": 0.8963621857646534,
+    "learning_rate": 0.000819197342640688,
+    "model": "ENMF",
+    "negative_weight": 0.7000418003443107
+}

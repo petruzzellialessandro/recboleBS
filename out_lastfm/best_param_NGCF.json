@@ -1,0 +1,9 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "hidden_size_list": "[128,128,128]",
+    "learning_rate": 0.0007996678999136425,
+    "model": "NGCF",
+    "node_dropout": 0.1467142468468191,
+    "reg_weight": 0.00018553429500711498
+}

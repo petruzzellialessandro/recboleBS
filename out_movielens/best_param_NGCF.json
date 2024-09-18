@@ -1,0 +1,9 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "hidden_size_list": "[128,128,128]",
+    "learning_rate": 0.0008326381369931372,
+    "model": "NGCF",
+    "node_dropout": 0.6252545909647521,
+    "reg_weight": 0.0008489470089294085
+}

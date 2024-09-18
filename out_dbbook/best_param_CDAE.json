@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "corruption_ratio": 0.28124363301779326,
+    "dataset": "dbbook",
+    "learning_rate": 0.0004789297993623883,
+    "loss_type": "BCE",
+    "model": "CDAE",
+    "reg_weight_1": 0.008169370079750566,
+    "reg_weight_2": 0.008064228668748995
+}

@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "corruption_ratio": 0.2528100606132182,
+    "dataset": "movielens",
+    "learning_rate": 0.00015948867750197642,
+    "loss_type": "BCE",
+    "model": "CDAE",
+    "reg_weight_1": 0.00710145241432702,
+    "reg_weight_2": 0.004244847437481571
+}

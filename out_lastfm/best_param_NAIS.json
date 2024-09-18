@@ -1,0 +1,10 @@
+{
+    "alpha": 0.6254859236576883,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.3551549879338025,
+    "dataset": "lastfm",
+    "learning_rate": 0.0009937973687232542,
+    "model": "NAIS",
+    "reg_weights": "[0, 0, 0]",
+    "weight_size": 32
+}

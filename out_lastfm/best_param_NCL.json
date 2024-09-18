@@ -1,0 +1,9 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "model": "NCL",
+    "num_clusters": 1000,
+    "proto_reg": 7.686578442586741e-06,
+    "ssl_reg": 9.270307691424578e-06,
+    "ssl_temp": 0.08104843229613011
+}

@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "kafc": 5,
+    "learning_rate": 0.0002773391671641724,
+    "model": "MacridVAE"
+}

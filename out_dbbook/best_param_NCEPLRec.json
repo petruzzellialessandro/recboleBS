@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.8975495429988238,
+    "dataset": "dbbook",
+    "model": "NCEPLRec",
+    "rank": 450,
+    "reg_weight": 8083.332162194727
+}

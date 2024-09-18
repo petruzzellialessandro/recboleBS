@@ -1,0 +1,9 @@
+{
+    "alpha": 0.3097228897193154,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "embedding_size": 16,
+    "learning_rate": 5.306340198061295e-05,
+    "model": "FISM",
+    "regs": "[0, 0]"
+}

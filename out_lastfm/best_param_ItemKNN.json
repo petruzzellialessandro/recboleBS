@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "k": 300,
+    "model": "ItemKNN",
+    "shrink": 1
+}

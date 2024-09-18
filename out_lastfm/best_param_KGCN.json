@@ -1,0 +1,9 @@
+{
+    "aggregator": "concat",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "l2_weight": 5.010854883855622e-05,
+    "learning_rate": 0.0009023043828495906,
+    "model": "KGCN",
+    "neighbor_sample_size": 4
+}

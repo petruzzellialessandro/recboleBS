@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "kafc": 1,
+    "learning_rate": 0.000779001976367208,
+    "model": "MacridVAE"
+}

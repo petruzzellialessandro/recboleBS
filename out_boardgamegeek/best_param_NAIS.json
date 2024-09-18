@@ -1,0 +1,10 @@
+{
+    "alpha": 0.6680360900313366,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.25972885402492996,
+    "dataset": "boardgamegeek",
+    "learning_rate": 9.553101144083145e-05,
+    "model": "NAIS",
+    "reg_weights": "[0, 0, 0]",
+    "weight_size": 32
+}

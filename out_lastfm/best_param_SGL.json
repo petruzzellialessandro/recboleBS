@@ -1,0 +1,9 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "dropout_prob": 0.017478318229262435,
+    "model": "SGL",
+    "ssl_tau": 0.032059804393661476,
+    "ssl_weight": 0.12340809863037398,
+    "type": "ED"
+}

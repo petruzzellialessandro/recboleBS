@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "gcn_output_dim": 1,
+    "learning_rate": 0.0009832946860654282,
+    "model": "LINE",
+    "second_order_loss_weight": 0.8566833581683485
+}

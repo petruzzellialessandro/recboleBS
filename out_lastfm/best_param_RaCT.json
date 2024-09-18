@@ -1,0 +1,7 @@
+{
+    "anneal_cap": 0.1696758653234318,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "dropout_prob": 0.4486384405675457,
+    "model": "RaCT"
+}

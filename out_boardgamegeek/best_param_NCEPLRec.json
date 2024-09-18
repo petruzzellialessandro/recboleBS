@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.823677499676096,
+    "dataset": "boardgamegeek",
+    "model": "NCEPLRec",
+    "rank": 100,
+    "reg_weight": 9136.081462382741
+}

@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.00099810658632756,
+    "model": "MultiVAE"
+}

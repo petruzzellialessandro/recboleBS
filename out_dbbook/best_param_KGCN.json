@@ -1,0 +1,9 @@
+{
+    "aggregator": "concat",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "l2_weight": 5.7944641643284796e-05,
+    "learning_rate": 0.0009997196014632562,
+    "model": "KGCN",
+    "neighbor_sample_size": 6
+}

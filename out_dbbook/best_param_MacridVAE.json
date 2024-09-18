@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "kafc": 1,
+    "learning_rate": 0.0009882668436811991,
+    "model": "MacridVAE"
+}

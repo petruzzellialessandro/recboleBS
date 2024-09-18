@@ -1,0 +1,10 @@
+{
+    "alpha": 0.6011578718162229,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "hide_item": true,
+    "l1_ratio": 0.004272501826332398,
+    "margin": 0.6114399406525641,
+    "model": "SLIMElastic",
+    "positive_only": true
+}

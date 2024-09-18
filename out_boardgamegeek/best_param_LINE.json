@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "gcn_output_dim": 1,
+    "learning_rate": 6.788826404325281e-05,
+    "model": "LINE",
+    "second_order_loss_weight": 0.647206789231305
+}

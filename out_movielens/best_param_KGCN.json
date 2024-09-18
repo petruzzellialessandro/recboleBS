@@ -1,0 +1,9 @@
+{
+    "aggregator": "sum",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "l2_weight": 6.122312329383135e-06,
+    "learning_rate": 0.0006873673369890388,
+    "model": "KGCN",
+    "neighbor_sample_size": 1
+}

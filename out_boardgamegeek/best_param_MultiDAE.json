@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "learning_rate": 6.617581068401549e-05,
+    "model": "MultiDAE"
+}

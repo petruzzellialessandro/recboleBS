@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "gcn_output_dim": 1,
+    "learning_rate": 0.0009173029056470777,
+    "model": "LINE",
+    "second_order_loss_weight": 0.5674398473294153
+}

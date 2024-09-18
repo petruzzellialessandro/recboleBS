@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "learning_rate": 0.0008833484499306776,
+    "loss_function": "inner_product",
+    "margin": 36.380093807238055,
+    "model": "CFKG"
+}

@@ -1,0 +1,9 @@
+{
+    "alpha": 0.06622258715134142,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "embedding_size": 64,
+    "learning_rate": 0.0003987225198288136,
+    "model": "FISM",
+    "regs": "[1e-7, 1e-7]"
+}

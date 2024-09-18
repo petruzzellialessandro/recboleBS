@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.0003694341870825334,
+    "model": "SpectralCF",
+    "n_layers": 2,
+    "reg_weight": 0.7883397005687549
+}

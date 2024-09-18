@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "dropout_prob": 0.003774379678425244,
+    "learning_rate": 7.33316098789369e-05,
+    "mlp_hidden_size": "[64,32,16]",
+    "model": "NeuMF"
+}

@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "dropout_prob": 0.7342114851763988,
+    "learning_rate": 0.0008312690994727437,
+    "mlp_hidden_size": "[64,32,16]",
+    "model": "NeuMF"
+}

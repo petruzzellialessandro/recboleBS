@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "gamma": 0.15722235534316711,
+    "margin": 0.8508169600542727,
+    "model": "SimpleX",
+    "negative_weight": 10
+}

@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "gamma": 0.8761002458301446,
+    "margin": 0.8086290258505938,
+    "model": "SimpleX",
+    "negative_weight": 10
+}

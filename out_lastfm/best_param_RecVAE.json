@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.0007754497983538297,
+    "model": "RecVAE"
+}

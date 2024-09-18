@@ -1,0 +1,9 @@
+{
+    "alpha": 0.4992772773277182,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "embedding_size": 32,
+    "learning_rate": 0.0002306028805397839,
+    "model": "FISM",
+    "regs": "[0, 0]"
+}

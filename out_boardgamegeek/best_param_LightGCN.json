@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "learning_rate": 0.0009859902482172403,
+    "model": "LightGCN",
+    "n_layers": 2,
+    "reg_weight": 0.0038025385239495242
+}

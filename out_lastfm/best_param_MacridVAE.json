@@ -1,0 +1,7 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "kafc": 10,
+    "learning_rate": 0.0009462761529429475,
+    "model": "MacridVAE"
+}

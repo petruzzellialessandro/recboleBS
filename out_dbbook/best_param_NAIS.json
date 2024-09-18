@@ -1,0 +1,10 @@
+{
+    "alpha": 0.1408123879058168,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.6294056140889451,
+    "dataset": "dbbook",
+    "learning_rate": 0.0005825770015309463,
+    "model": "NAIS",
+    "reg_weights": "[0, 0, 0]",
+    "weight_size": 64
+}

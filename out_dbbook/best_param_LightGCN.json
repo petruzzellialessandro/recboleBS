@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.0009950440379586038,
+    "model": "LightGCN",
+    "n_layers": 1,
+    "reg_weight": 0.0030586232194809646
+}

@@ -1,0 +1,7 @@
+{
+    "anneal_cap": 0.09563667729668816,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "dropout_prob": 0.5127453390849617,
+    "model": "RaCT"
+}

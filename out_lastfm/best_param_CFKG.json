@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "learning_rate": 0.0004567068026033553,
+    "loss_function": "transe",
+    "margin": 2.054890876795308,
+    "model": "CFKG"
+}

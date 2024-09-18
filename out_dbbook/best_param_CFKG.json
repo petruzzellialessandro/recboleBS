@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.0006743964413946822,
+    "loss_function": "transe",
+    "margin": 33.06211939952828,
+    "model": "CFKG"
+}

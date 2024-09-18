@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "corruption_ratio": 0.4535866216033179,
+    "dataset": "boardgamegeek",
+    "learning_rate": 0.0009609636467594891,
+    "loss_type": "BCE",
+    "model": "CDAE",
+    "reg_weight_1": 0.0006240956512053819,
+    "reg_weight_2": 5.95850214483884e-05
+}

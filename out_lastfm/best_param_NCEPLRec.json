@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "beta": 0.9961398389072063,
+    "dataset": "lastfm",
+    "model": "NCEPLRec",
+    "rank": 450,
+    "reg_weight": 9741.700430292603
+}

@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "high_layers_num": 12,
+    "kg_embedding_size": 16,
+    "l2_weight": 6.485975359321883e-05,
+    "learning_rate": 0.0004896719799048046,
+    "low_layers_num": 2,
+    "model": "MKR"
+}

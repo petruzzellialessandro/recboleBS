@@ -1,0 +1,10 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "movielens",
+    "learning_rate": 0.0007926568742529766,
+    "model": "NNCF",
+    "neigh_embedding_size": 32,
+    "neigh_info_method": "knn",
+    "neigh_num": 20,
+    "num_conv_kernel": 32
+}

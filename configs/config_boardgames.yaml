@@ -1,0 +1,41 @@
+# dataset config
+field_separator: "\t"
+seq_separator: " "
+USER_ID_FIELD: user_id
+ITEM_ID_FIELD: item_id
+RATING_FIELD: rating
+HEAD_ENTITY_ID_FIELD: head_id
+TAIL_ENTITY_ID_FIELD: tail_id
+RELATION_ID_FIELD: relation_id
+ENTITY_ID_FIELD: entity_id
+TITLE_FIELD: title
+NEG_PREFIX: neg_
+LABEL_FIELD: label
+load_col:
+    inter: [user_id, item_id, rating]
+    #kg: [head_id, relation_id, tail_id]
+    #link: [entity_id, item_id]
+    item: [item_id, title]
+gpu_id: 4
+
+# data filtering for interactions
+val_interval:
+    rating: "[0,inf)"    
+    
+user_inter_num_interval: "[10,inf)"
+item_inter_num_interval: "[10,inf)"
+
+# data preprocessing for knowledge graph triples
+kg_reverse_r: True
+entity_kg_num_interval: "[5,inf)"
+relation_kg_num_interval: "[5,inf)"
+
+# training and evaluation
+epochs: 10
+train_batch_size: 256
+eval_batch_size: 256
+valid_metric: NDCG@10
+train_neg_sample_args: 
+    distribution: uniform
+    sample_num: 1
+    dynamic: False

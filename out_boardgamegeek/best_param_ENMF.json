@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "dropout_prob": 0.3543112442949305,
+    "learning_rate": 0.00018521190202874915,
+    "model": "ENMF",
+    "negative_weight": 0.4909117291884584
+}

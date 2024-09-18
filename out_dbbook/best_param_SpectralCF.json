@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "dbbook",
+    "learning_rate": 0.0009167483215194162,
+    "model": "SpectralCF",
+    "n_layers": 3,
+    "reg_weight": 0.878631977321358
+}

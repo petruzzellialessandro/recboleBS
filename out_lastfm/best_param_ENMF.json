@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "dropout_prob": 0.10448217839579757,
+    "learning_rate": 0.0009009195976999147,
+    "model": "ENMF",
+    "negative_weight": 0.8335845172993473
+}

@@ -1,0 +1,9 @@
+{
+    "accum": "stack",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "lastfm",
+    "dropout_prob": 0.8946630487423005,
+    "gcn_output_dim": 256,
+    "learning_rate": 0.00024806030020697395,
+    "model": "GCMC"
+}
