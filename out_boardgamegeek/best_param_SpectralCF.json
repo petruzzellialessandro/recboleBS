@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "learning_rate": 0.00046363728068924104,
+    "model": "SpectralCF",
+    "n_layers": 1,
+    "reg_weight": 0.21632211481830738
+}

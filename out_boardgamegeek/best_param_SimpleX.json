@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "gamma": 0.6066066388236291,
+    "margin": 0.2797834346074915,
+    "model": "SimpleX",
+    "negative_weight": 50
+}

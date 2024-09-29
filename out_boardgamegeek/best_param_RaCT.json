@@ -1,0 +1,7 @@
+{
+    "anneal_cap": 0.08335716333384367,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "dropout_prob": 0.6119858800019068,
+    "model": "RaCT"
+}

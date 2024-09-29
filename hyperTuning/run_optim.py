@@ -30,7 +30,7 @@ fixed_config_file_list = [os.path.join('configs','config_boardgames.yaml')]
 os.makedirs(f'out_{dataset}', exist_ok=True)
 
 for model_name, params_dict in utils.config_dict.items():
-    if model_name in [x.split('_')[-1].split('.')[0] for x in os.listdir(f'out_{dataset}')] + ['ItemKNN', 'GCMC', 'NCL', 'NGCF']:
+    if model_name in [x.split('_')[-1].split('.')[0] for x in os.listdir(f'out_{dataset}')] + ['ItemKNN', 'GCMC', 'NCL', 'NGCF', 'SGL']:
         continue
     try:
         params_dict['choice'] = params_dict.get('choice', {})

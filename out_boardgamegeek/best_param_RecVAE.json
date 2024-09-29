@@ -1,0 +1,6 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "learning_rate": 0.0003146192183831142,
+    "model": "RecVAE"
+}

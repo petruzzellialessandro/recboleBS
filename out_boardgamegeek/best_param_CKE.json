@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "kg_embedding_size": 128,
+    "learning_rate": 0.0005003713096141188,
+    "model": "CKE",
+    "reg_weights": "[0.01,0.01]"
+}

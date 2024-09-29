@@ -1,0 +1,10 @@
+{
+    "alpha": 0.034447378588917166,
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "hide_item": true,
+    "l1_ratio": 0.8981346359443366,
+    "margin": 0.7048050403105106,
+    "model": "SLIMElastic",
+    "positive_only": true
+}

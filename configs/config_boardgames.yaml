@@ -13,8 +13,8 @@ NEG_PREFIX: neg_
 LABEL_FIELD: label
 load_col:
     inter: [user_id, item_id, rating]
-    #kg: [head_id, relation_id, tail_id]
-    #link: [entity_id, item_id]
+    kg: [head_id, relation_id, tail_id]
+    link: [entity_id, item_id]
     item: [item_id, title]
 gpu_id: 4
 

@@ -1,0 +1,9 @@
+{
+    "aggregator": "sum",
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "l2_weight": 7.346616097348334e-05,
+    "learning_rate": 0.0003753624189749428,
+    "model": "KGCN",
+    "neighbor_sample_size": 10
+}

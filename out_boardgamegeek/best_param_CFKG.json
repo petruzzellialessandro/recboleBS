@@ -1,0 +1,8 @@
+{
+    "benchmark_filename": "[\"part1\", \"part3\", \"part3\"]",
+    "dataset": "boardgamegeek",
+    "learning_rate": 0.0004774888576455654,
+    "loss_function": "inner_product",
+    "margin": 34.00841917081645,
+    "model": "CFKG"
+}
